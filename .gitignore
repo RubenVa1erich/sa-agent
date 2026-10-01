@@ -1,0 +1,13 @@
+# Рабочие материалы проектов (документы работодателя/клиентов) — не в репозиторий
+projects/*
+
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
+
+# Личный план развития — не публикуется
+ROADMAP.md

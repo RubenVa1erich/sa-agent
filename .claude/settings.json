@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Edit(./projects/**)",
+      "Glob",
+      "Grep",
+      "Bash(python tools/extract_docx.py:*)",
+      "Bash(mkdir -p projects/:*)",
+      "Bash(ls:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/session_start.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
