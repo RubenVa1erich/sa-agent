@@ -10,7 +10,7 @@
 ## Быстрый старт
 
 ```bash
-git clone <URL репозитория> sa-agent
+git clone https://github.com/RubenVa1erich/sa-agent.git
 cd sa-agent
 claude
 ```
